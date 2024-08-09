@@ -16,27 +16,23 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.0)
-  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AFNetworking
   - Masonry
   - ReactiveObjC
-  - SVProgressHUD
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
     - ReactiveObjC
-    - SVProgressHUD
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: c650ccbba2ae1ffa4128b0180f1f7ae57dbcbaf2
+PODFILE CHECKSUM: 9e0070099b39ea2f53c86131dd7a86cc6733ae2f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.15.2

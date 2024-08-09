@@ -28,7 +28,7 @@
 		1874AB64210F5F8400C92DC5 /* ZBMVVMSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874AB63210F5F8400C92DC5 /* ZBMVVMSimpleView.m */; };
 		1874AB67210F5F9B00C92DC5 /* ZBMVVMSimpleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874AB66210F5F9B00C92DC5 /* ZBMVVMSimpleViewModel.m */; };
 		1874AB6A210F5FA900C92DC5 /* ZBMVVMSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874AB69210F5FA900C92DC5 /* ZBMVVMSimpleModel.m */; };
-		587552DFDF2F00EFC94D1834 /* Pods_ZBMVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69319583F7D54963C11CA555 /* Pods_ZBMVVMDemo.framework */; };
+		87AF1D9763C90BC2520066DD /* Pods_ZBMVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2883B1A221C3B401E3F6D0 /* Pods_ZBMVVMDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,9 +103,9 @@
 		1874AB66210F5F9B00C92DC5 /* ZBMVVMSimpleViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMVVMSimpleViewModel.m; sourceTree = "<group>"; };
 		1874AB68210F5FA900C92DC5 /* ZBMVVMSimpleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMVVMSimpleModel.h; sourceTree = "<group>"; };
 		1874AB69210F5FA900C92DC5 /* ZBMVVMSimpleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMVVMSimpleModel.m; sourceTree = "<group>"; };
-		3EB6AD163BE3EB78D238A74E /* Pods-ZBMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4383C6676AC9A77656F03327 /* Pods-ZBMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		69319583F7D54963C11CA555 /* Pods_ZBMVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBMVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B91CA438A36D69ED76F1684 /* Pods-ZBMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBMVVMDemo.release.xcconfig"; path = "Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		886FFCB0B687CED1F3BD9DA2 /* Pods-ZBMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBMVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2883B1A221C3B401E3F6D0 /* Pods_ZBMVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBMVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587552DFDF2F00EFC94D1834 /* Pods_ZBMVVMDemo.framework in Frameworks */,
+				87AF1D9763C90BC2520066DD /* Pods_ZBMVVMDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +238,8 @@
 				1874AB41210DBBBD00C92DC5 /* ZBMVVMDemoTests */,
 				1874AB4C210DBBBD00C92DC5 /* ZBMVVMDemoUITests */,
 				1874AB27210DBBB500C92DC5 /* Products */,
-				908196010287B858F84C51EB /* Pods */,
-				ABF03C05E636281BB27B391C /* Frameworks */,
+				C1B6B82491A22D4D738A6DAD /* Pods */,
+				AA0A596B831931374F336114 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -317,21 +317,22 @@
 			path = "ZBMVVMDemo/MVVM案例二";
 			sourceTree = SOURCE_ROOT;
 		};
-		908196010287B858F84C51EB /* Pods */ = {
+		AA0A596B831931374F336114 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4383C6676AC9A77656F03327 /* Pods-ZBMVVMDemo.debug.xcconfig */,
-				3EB6AD163BE3EB78D238A74E /* Pods-ZBMVVMDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		ABF03C05E636281BB27B391C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				69319583F7D54963C11CA555 /* Pods_ZBMVVMDemo.framework */,
+				BF2883B1A221C3B401E3F6D0 /* Pods_ZBMVVMDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B6B82491A22D4D738A6DAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				886FFCB0B687CED1F3BD9DA2 /* Pods-ZBMVVMDemo.debug.xcconfig */,
+				1B91CA438A36D69ED76F1684 /* Pods-ZBMVVMDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,11 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1874AB52210DBBBD00C92DC5 /* Build configuration list for PBXNativeTarget "ZBMVVMDemo" */;
 			buildPhases = (
-				27D78211D87AC2A97F424E0A /* [CP] Check Pods Manifest.lock */,
+				0C4FD0E8459B23CCDADA42C2 /* [CP] Check Pods Manifest.lock */,
 				1874AB22210DBBB500C92DC5 /* Sources */,
 				1874AB23210DBBB500C92DC5 /* Frameworks */,
 				1874AB24210DBBB500C92DC5 /* Resources */,
-				F21CB4AFA2AE4903B083B27C /* [CP] Embed Pods Frameworks */,
+				F766B0EC15D819E41BBD6678 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -462,16 +463,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27D78211D87AC2A97F424E0A /* [CP] Check Pods Manifest.lock */ = {
+		0C4FD0E8459B23CCDADA42C2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZBMVVMDemo-checkManifestLockResult.txt",
 			);
@@ -480,28 +485,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F21CB4AFA2AE4903B083B27C /* [CP] Embed Pods Frameworks */ = {
+		F766B0EC15D819E41BBD6678 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZBMVVMDemo/Pods-ZBMVVMDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -697,7 +695,7 @@
 		};
 		1874AB53210DBBBD00C92DC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4383C6676AC9A77656F03327 /* Pods-ZBMVVMDemo.debug.xcconfig */;
+			baseConfigurationReference = 886FFCB0B687CED1F3BD9DA2 /* Pods-ZBMVVMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -715,7 +713,7 @@
 		};
 		1874AB54210DBBBD00C92DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EB6AD163BE3EB78D238A74E /* Pods-ZBMVVMDemo.release.xcconfig */;
+			baseConfigurationReference = 1B91CA438A36D69ED76F1684 /* Pods-ZBMVVMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

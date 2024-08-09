@@ -5,12 +5,12 @@
 //  Created by 帅斌 on 2018/7/29.
 //  Copyright © 2018年 personal. All rights reserved.
 
-./symbolicatecrash /Users/power/Desktop/crashParsing/ZBMVVMDemo.crash /Users/power/Desktop/crashParsing/ZBMVVMDemo.app.dSYM > log.crash
+//./symbolicatecrash /Users/power/Desktop/crashParsing/ZBMVVMDemo.crash /Users/power/Desktop/crashParsing/ZBMVVMDemo.app.dSYM > log.crash
 
 
 
 
-/Users/power/Desktop/crashParsing/中国领事.app.dSYM
+///Users/power/Desktop/crashParsing/中国领事.app.dSYM/
 
 
 #import "ViewController.h"
